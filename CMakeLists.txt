@@ -28,7 +28,7 @@ add_library(sorting SHARED
 )
 
 add_executable(sorting-tests
-    "test/sorting_tests.cc"
+    "test/sorting-tests.cc"
 )
 
 target_include_directories(sorting PUBLIC "include")
